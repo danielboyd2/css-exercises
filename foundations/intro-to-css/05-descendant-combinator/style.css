@@ -1,0 +1,11 @@
+/* Style p elements decendanted from div elements */
+
+.container .text {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    background-color: yellow;
+}
+
+/* Notes:
+My solution matched up with the offical solution, just ordered my syntax differently */

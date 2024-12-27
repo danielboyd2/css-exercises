@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+
+/* Adjusting image pixels for avatar-proportioned */
+.avatar-proportioned {
+    width: 300px;
+    height: auto;
+}
+
+/* Adjusting image pixels for avatar-distorted */
+.avatar-distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* Notes: 
+I changed the class name by adding a "-" between each 2 words.
+Now I simply realize I can add a "." between each word if the class name has a space in it. 

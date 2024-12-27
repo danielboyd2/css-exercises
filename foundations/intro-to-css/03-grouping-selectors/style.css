@@ -1,0 +1,23 @@
+/*Grouping both elements/selectors together to define shared styles*/
+.class1,
+.class2 {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/*Defining indivdual styles to the first element*/
+.class1 {
+    color: white;
+    background-color: black;
+}
+
+/*Defining indivdual style to the second element*/
+.class2 {
+    background-color: yellow;
+}
+
+/*Notes:  
+I grouped shared styles for `.class1` and `.class2` using a comma-separated list of selectors. 
+I applied unique styles for `.class1` and `.class2` in separate rules to reflect their individual differences.
+My solution is nearly identical to the official solution, with minor differences in syntax ordering. 
+-The differences don’t affect functionality but might improve readability depending on preference.

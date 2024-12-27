@@ -1,0 +1,36 @@
+/*All odd numbered elements*/
+.number1, /*Do not forget commas!*/
+.number3,
+.number5 {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/*The second element, ID uses # */
+#number2 {
+    color: blue;
+    font-size: 36px;
+}
+
+/*The third element, class uses . */ 
+.number3 {
+    font-size: 24px
+}
+
+/*The fourth Element, ID uses # */
+#number4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Notes:
+- I grouped `.number1`, `.number3`, and `.number5` in the same rule because they share styles. 
+    - Don't forget to use commas to separate selectors when grouping.
+- ID selectors use `#` (e.g., `#number2`, `#number4`), and they should be unique to the page.
+- Class selectors use `.` (e.g., `.number3`), and they can be reused on multiple elements.
+- To avoid redundancy:
+   - I could have assigned a common class (e.g., `.odd-numbers`) to `.number1` and `.number5` for shared styles.
+   - Additional styles for `.number3` could also be added within the same class definition.
+- Best Practice: Keep IDs for unique elements (e.g., `#number2`) and use classes for reusable styles.
+*/
